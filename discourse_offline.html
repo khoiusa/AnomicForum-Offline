@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+    <meta http-equiv="refresh" content="15;url=http://anomicforum.xyz" />
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="refresh" content="120">
+        <title>Discourse offline</title>
+        <style>
+            .center {
+                display: flex;
+                justify-content: center;
+            }
+            .container {
+                background: #DDD;
+                max-width: 500px;
+                padding: 50px 50px 30px 50px;
+                margin-top: 50px;
+            }
+            .title {
+                padding-top: 20px;
+            }
+            h1, p {
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            }
+            @keyframes spin {
+                from { transform: rotate(0deg); }
+                to { transform: rotate(360deg); }
+            }
+            .spinner {
+                animation: spin 5s infinite linear;
+                height: 30px;
+                width: 30px;
+                border: 4px solid #919191;
+                border-right-color: transparent;
+                border-radius: 50%;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="center">
+            <div class="container">
+                <div class="center">
+                    <img src="https://static.wikia.nocookie.net/anomic/images/e/ed/The_ACF_Logo.png/revision/latest?cb=20221224144309" alt="AnomicForum logo" width="244" height="70">
+                </div>
+                <h1 class="title">[Forum Offline] We’re sorry&hellip;</h1>
+                <div class="center">
+                    <img src="https://cdn1.iconfinder.com/data/icons/internet-technology-and-security-2/128/53-512.png" alt="Server Error Icon" width="100" height="100">
+                </div>
+                <p>The Anomic Community Forum isn’t available right now. We are currently upgrading the site, or performing scheduled maintenance.</p>
+                <p>This page will automatically redirect you to the forum when it becomes available.</p>
+                <p><a href="https://anomiccommunityforum.statuspage.io/">Access Forum Status Page »</a></p>
+                <div class="center">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
